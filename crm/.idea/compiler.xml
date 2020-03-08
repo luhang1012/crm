@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="shsxt_crm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="shsxt_crm" target="1.8" />
+=======
+        <module name="crm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="crm" target="1.8" />
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
     </bytecodeTargetLevel>
   </component>
 </project>

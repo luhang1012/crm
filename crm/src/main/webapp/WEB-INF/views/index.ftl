@@ -32,11 +32,17 @@
 		<h3 class="form-title">Crm登录</h3>
 		<div class="alert alert-danger display-hide">
 			<button class="close" data-close="alert"></button>
+<<<<<<< HEAD
 			<span>用户名</span>
+=======
+			<span>
+			用户名</span>
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
 		</div>
 		<div class="form-group">
 			<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
 			<label class="control-label visible-ie8 visible-ie9">用户名</label>
+<<<<<<< HEAD
 			<input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="用户名" name="userName" id="userName" value="shsxt"/>
 		</div>
 		<div class="form-group">
@@ -47,6 +53,18 @@
 			<button type="button" onclick="login()" class="btn btn-success uppercase btn-xs btn-block">登录</button>
 		</div>
 		<span style="color: red;margin: auto" id="msg"></span>
+=======
+			<input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="用户名" name="username"/>
+		</div>
+		<div class="form-group">
+			<label class="control-label visible-ie8 visible-ie9">密码</label>
+			<input class="form-control form-control-solid placeholder-no-fix" type="password" autocomplete="off" placeholder="密码" name="password"/>
+		</div>
+		<div class="form-actions">
+			<button type="submit" class="btn btn-success uppercase btn-xs btn-block">登录</button>
+		</div>
+		
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
 		<div class="create-account">
 			<p>
 				<a href="javascript:;" id="register-btn" class="uppercase">注册</a>
@@ -87,6 +105,7 @@
 	 上海尚学堂智能科技有限公司 的icp备案号 （沪ICP备16053543号）
 </div>
 
+<<<<<<< HEAD
 <script src="${ctx}/jquery-easyui-1.3.3/jquery.min.js"></script>
 <script src="${ctx}/js/common.js"></script>
 <script src="${ctx}/js/jquery.cookie.js"></script>
@@ -94,6 +113,8 @@
 	var ctx = '${ctx}'
 </script>
 <script src="${ctx}/js/index.js"></script>
+=======
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
 <!-- END JAVASCRIPTS -->
 </body>
 <!-- END BODY -->

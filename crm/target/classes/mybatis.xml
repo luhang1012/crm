@@ -3,7 +3,10 @@
 <configuration>
     <typeAliases>
         <package name="com.shsxt.crm.po"/>
+<<<<<<< HEAD
         <package name="com.shsxt.crm.query"/>
+=======
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
     </typeAliases>
     <plugins> <!-- com.github.pagehelper 为 PageHelper 类所在包名 -->
         <plugin interceptor="com.github.pagehelper.PageHelper">

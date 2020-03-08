@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 com\shsxt\crm\po\User.class
 com\shsxt\crm\service\SaleChanceService.class
 com\shsxt\crm\service\UserService.class
@@ -27,3 +28,7 @@ com\shsxt\crm\model\UserInfo.class
 com\shsxt\crm\exceptions\ParamsException.class
 com\shsxt\crm\base\BaseService.class
 com\shsxt\crm\dao\SaleChanceMapper.class
+=======
+com\shsxt\crm\controller\IndexController.class
+com\shsxt\crm\controller\MainController.class
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d

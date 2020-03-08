@@ -30,6 +30,7 @@
     <mvc:resources location="/images/" mapping="/images/**"></mvc:resources>
     <mvc:resources location="/jquery-easyui-1.3.3/" mapping="/jquery-easyui-1.3.3/**"></mvc:resources>
     <mvc:resources location="/js/" mapping="/js/**"></mvc:resources>
+<<<<<<< HEAD
 
     <mvc:interceptors>
         <mvc:interceptor>
@@ -43,4 +44,6 @@
             <bean class="com.shsxt.crm.interceptors.LoginInterceptor"></bean>
         </mvc:interceptor>
     </mvc:interceptors>
+=======
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
 </beans>

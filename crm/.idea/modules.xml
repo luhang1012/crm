@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/shsxt_crm.iml" filepath="$PROJECT_DIR$/shsxt_crm.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/crm.iml" filepath="$PROJECT_DIR$/crm.iml" />
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
     </modules>
   </component>
 </project>

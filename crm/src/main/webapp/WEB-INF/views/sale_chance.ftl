@@ -22,8 +22,13 @@
         <th field="createDate" width="100" align="center">创建时间</th>
         <th field="trueName" width="200" align="center">指派人</th>
         <th field="assignTime" width="200" align="center">指派时间</th>
+<<<<<<< HEAD
         <th field="state" width="100" align="center" formatter="formatState">分配状态</th>
         <th field="devResult" width="200" align="center" formatter="formatDevResult">客户开发状态</th>
+=======
+        <th field="state" width="100" align="center" formatter="">分配状态</th>
+        <th field="devResult" width="200" align="center" formatter="">客户开发状态</th>
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
     </tr>
     </thead>
 </table>
@@ -82,10 +87,19 @@
             <tr>
                 <td>分配人:</td>
                 <td>
+<<<<<<< HEAD
                 <#--<input type="text" id="assignMan" name="assignMan"/>-->
                     <input class="easyui-combobox" id="assignMan" name="assignMan"
                            valueField="id" textField="trueName"
                            url="${ctx}/user/queryCustomerManagers" panelHeight="auto"/>
+=======
+                    <input type="text" id="assignMan" name="assignMan"/>
+                   <#--
+                    <input class="easyui-combobox" id="assignMan" name="assignMan"
+                           valueField="id" textField="trueName"
+                           url="${ctx}/user/queryCustomerManagers" panelHeight="auto"/>
+                    -->
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
                 </td>
             </tr>
         </table>
@@ -97,5 +111,9 @@
     <a href="javascript:closeDlg()" class="easyui-linkbutton" plain="true" iconCls="icon-cancel">取消</a>
 </div>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
 </body>
 </html>

@@ -2,6 +2,10 @@
 <head>
     <#include "common.ftl" >
     <title>Crm | 后台主页</title>
+<<<<<<< HEAD
+=======
+    <script type="text/javascript" src="${ctx}/js/main.js"></script>
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
 </head>
 <body class="easyui-layout">
 <div region="north" style="height: 78px;background-color: #E0ECFF">
@@ -26,8 +30,13 @@
 <div region="west" style="width: 200px" title="导航菜单" split="true">
     <div class="easyui-accordion" data-options="fit:true,border:false">
         <div title="营销管理" data-options="selected:true,iconCls:'icon-yxgl'" style="padding: 10px">
+<<<<<<< HEAD
             <a href="javascript:openTab('营销机会管理','saleChance/index','icon-yxjhgl')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-yxjhgl'" style="width: 150px">营销机会管理</a>
             <a href="javascript:openTab('客户开发计划','saleChance/index?state=1','icon-khkfjh')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-khkfjh'" style="width: 150px">客户开发计划</a>
+=======
+            <a href="javascript:openTab('营销机会管理','sale_chance/index','icon-yxjhgl')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-yxjhgl'" style="width: 150px">营销机会管理</a>
+            <a href="javascript:openTab('客户开发计划','sale_chance/index?state=1','icon-khkfjh')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-khkfjh'" style="width: 150px">客户开发计划</a>
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
         </div>
         <div title="客户管理"  data-options="iconCls:'icon-khgl'" style="padding:10px;">
             <a href="javascript:openTab('客户信息管理','customer/index','icon-khxxgl')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-khxxgl'" style="width: 150px;">客户信息管理</a>
@@ -64,7 +73,11 @@
 </div>
 
 <div id="dlg" class="easyui-dialog" style="width:400px;height:250px;padding: 10px 20px"
+<<<<<<< HEAD
      closed="true" buttons="#dlg-buttons" title="修改密码">
+=======
+     closed="true" buttons="#dlg-buttons">
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
 
     <form id="fm" method="post">
         <table cellspacing="8px">
@@ -74,6 +87,7 @@
             </tr>
             <tr>
                 <td>原密码：</td>
+<<<<<<< HEAD
                 <td><input type="password" id="oldPwd" name="oldPwd" class="easyui-validatebox" required="true" style="width: 200px"/></td>
             </tr>
             <tr>
@@ -83,6 +97,17 @@
             <tr>
                 <td>确认新密码：</td>
                 <td><input type="password" id="confirmPwd" name="confirmPwd" class="easyui-validatebox" required="true" style="width: 200px"/></td>
+=======
+                <td><input type="password" id="oldPassword" name="oldPassword" class="easyui-validatebox" required="true" style="width: 200px"/></td>
+            </tr>
+            <tr>
+                <td>新密码：</td>
+                <td><input type="password" id="newPassword" name="newPassword" class="easyui-validatebox" required="true" style="width: 200px"/></td>
+            </tr>
+            <tr>
+                <td>确认新密码：</td>
+                <td><input type="password" id="newPassword2" name="confirmPassword" class="easyui-validatebox" required="true" style="width: 200px"/></td>
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
             </tr>
         </table>
     </form>
@@ -92,9 +117,12 @@
     <a href="javascript:modifyPassword()" class="easyui-linkbutton" iconCls="icon-ok">保存</a>
     <a href="javascript:closePasswordModifyDialog()" class="easyui-linkbutton" iconCls="icon-cancel">关闭</a>
 </div>
+<<<<<<< HEAD
 <script src="${ctx}/js/common.js"></script>
 <script src="${ctx}/js/jquery.cookie.js"></script>
 <script src="${ctx}/js/main.js"></script>
+=======
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
 
 </body>
 </html>

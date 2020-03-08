@@ -160,6 +160,7 @@
             <artifactId>commons-codec</artifactId>
             <version>1.9</version>
         </dependency>
+<<<<<<< HEAD
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -167,6 +168,8 @@
             <version>1.18.8</version>
             <scope>provided</scope>
         </dependency>
+=======
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
     </dependencies>
 
     <build>
@@ -187,6 +190,7 @@
             </resource>
         </resources>
         <plugins>
+<<<<<<< HEAD
             <!-- 指定编译的虚拟机 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -200,6 +204,8 @@
                     </compilerArguments>
                 </configuration>
             </plugin>
+=======
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>maven-jetty-plugin</artifactId>
@@ -210,6 +216,7 @@
                     <webDefaultXml>src/main/resources/webdefault.xml</webDefaultXml>
                 </configuration>
             </plugin>
+<<<<<<< HEAD
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
@@ -220,6 +227,8 @@
                     <overwrite>true</overwrite>
                 </configuration>
             </plugin>
+=======
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
         </plugins>
     </build>
 </project>

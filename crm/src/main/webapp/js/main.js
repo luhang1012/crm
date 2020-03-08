@@ -11,6 +11,7 @@ function openTab(text, url, iconCls){
         });
     }
 }
+<<<<<<< HEAD
 //打开窗口
 function openPasswordModifyDialog() {
     $('#dlg').dialog("open")
@@ -50,4 +51,6 @@ function logout() {
     window.location.href=ctx + '/index';
 }
 
+=======
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
 

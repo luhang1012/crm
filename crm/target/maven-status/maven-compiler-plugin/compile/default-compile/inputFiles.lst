@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\javacode\WinterVacationDev\crm\crm\src\main\java\com\shsxt\crm\utils\LoginUserUtil.java
 C:\javacode\WinterVacationDev\crm\crm\src\main\java\com\shsxt\crm\dao\SaleChanceMapper.java
 C:\javacode\WinterVacationDev\crm\crm\src\main\java\com\shsxt\crm\constants\CrmConstant.java
@@ -27,3 +28,6 @@ C:\javacode\WinterVacationDev\crm\crm\src\main\java\com\shsxt\crm\controller\Use
 C:\javacode\WinterVacationDev\crm\crm\src\main\java\com\shsxt\crm\model\UserInfo.java
 C:\javacode\WinterVacationDev\crm\crm\src\main\java\com\shsxt\crm\utils\CookieUtil.java
 C:\javacode\WinterVacationDev\crm\crm\src\main\java\com\shsxt\crm\base\BaseService.java
+=======
+C:\javacode\WinterVacation\crm\src\main\java\com\shsxt\crm\controller\IndexController.java
+>>>>>>> f6ce3391221933bbaf5f13abf6f88ca4a4e5b78d
